@@ -1,0 +1,14 @@
+pulseType          =            5  # CSPU pulse type.
+beamID             =            5  # NOVEM antenna beam number (1..10)
+numBasebandSamples =          250  # Number of output baseband samples to generate.
+Pn_H               =   -55.720000  # HP noise power (dBm).
+Pn_V               =   -55.720000  # VP noise power (dBm).
+Ps_H               =     0.000000  # HP peak signal power (dBm).
+Ps_V               =   -10.000000  # VP peak signal power (dBm).
+tau_d              =     0.550206  # Target delay (fraction of 60 MHz IF sample window).
+f_d                =     0.000000  # Target Doppler frequency offset (Hz).
+muIF               =     0.000000  # Simulated A/D dc offset (counts).
+A_H                =  2590.537859  # HP Amplitude (counts).
+A_V                =   819.200000  # VP Amplitude (counts).
+sigma_H            =     2.998299  # HP Sigma (counts).
+sigma_V            =     2.998299  # VP Sigma (counts).
